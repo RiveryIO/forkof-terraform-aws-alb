@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [9.12.0](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v9.11.2...v9.12.0) (2024-10-25)
+
+
+### Features
+
+* Support `aws_lb.enable_zonal_shift` and `aws_lb_listener.tcp_idle_timeout_seconds` ([#385](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/385)) ([f332dfd](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/f332dfdcd486cec3dea4d0d68d83dc74992ad806))
+
+## [9.11.2](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v9.11.1...v9.11.2) (2024-10-22)
+
+
+### Bug Fixes
+
+* To allow multiple query strings as an OR statement ([#383](https://github.com/terraform-aws-modules/terraform-aws-alb/issues/383)) ([068a578](https://github.com/terraform-aws-modules/terraform-aws-alb/commit/068a57879c5c4846846e7456c5269a2c85bf2f4b))
+
 ## [9.11.1](https://github.com/terraform-aws-modules/terraform-aws-alb/compare/v9.11.0...v9.11.1) (2024-10-11)
 
 
